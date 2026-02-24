@@ -5,7 +5,7 @@ import { BRAND_COLORS } from "@/styles/colors";
 
 export default function ShadeSlider() {
   return (
-    <div className="fixed inset-0 z-50 flex pointer-events-none">
+    <div className="fixed inset-0 z-99 flex pointer-events-none">
       <motion.div
         initial={{ x: 0 }}
         animate={{ x: "-100%" }}
